@@ -6,7 +6,7 @@ Compose](https://developer.android.com/courses/android-basics-compose/course) co
 with their details and images.
 
 ## Screenshot
-![]( )
+![amphibians.png](https://github.com/nikollquinteroc/Amphibians/blob/main/app/src/main/res/drawable/amphibians.png)
 
 ## Features
 
