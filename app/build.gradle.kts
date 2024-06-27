@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.amphibiansapp"
+    namespace = "com.example.amphibians"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.amphibiansapp"
+        applicationId = "com.example.amphibians"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -60,6 +60,9 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    //ViewModel
+    implementation(libs.androidx.lifecycle.compose)
 
     //Retrofit
     implementation(libs.retrofit.converter)
